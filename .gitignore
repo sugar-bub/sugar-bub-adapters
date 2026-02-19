@@ -5,3 +5,4 @@ fp-info-cache
 *.gbr
 *.gbrjob
 *.drl
+*.lck
