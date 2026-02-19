@@ -7946,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SugarBub:Amphenol_F32Q-1A7x1-11045_1x45-1MP_P0.5mm_HorizontalReversed"
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11045_1x45-1MP_P0.5mm_Horizontal"
 			(at 45.72 93.98 0)
 			(effects
 				(font
