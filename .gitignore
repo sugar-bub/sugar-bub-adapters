@@ -1,0 +1,7 @@
+*.bak
+fp-info-cache
+*-backups
+*.zip
+*.gbr
+*.gbrjob
+*.drl

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SugarBub")(type "KiCad")(uri "${KIPRJMOD}/../SugarBub.kicad_sym")(options "")(descr ""))
+)
