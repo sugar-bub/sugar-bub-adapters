@@ -713,7 +713,8 @@
 			)
 		)
 		(property "Value" "HC139"
-			(at -0.05 0.005 90)
+			(at -0.05 0.005 270)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6b48347-a6e0-4510-a355-2226a275acda")
 			(effects
