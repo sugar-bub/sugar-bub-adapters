@@ -5224,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b1e164-d39b-4337-a52f-74ded606dce6")
+	)
+	(wire
+		(pts
 			(xy 50.8 91.44) (xy 60.96 91.44)
 		)
 		(stroke
@@ -5971,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "6ba795f0-8e6b-40fb-8b61-ff1f03e967ce")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 50.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb7db8e-c93d-41ad-9291-1fbcaed61014")
 	)
 	(wire
 		(pts
@@ -7500,7 +7520,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 50.8 127 0)
+		(at 54.61 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7510,7 +7530,7 @@
 		)
 		(uuid "384b3a64-1ab7-47ec-8d68-4e762fd458b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8091 127 0)
+			(at 60.6191 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7740,7 @@
 	)
 	(global_label "{slash}RST"
 		(shape input)
-		(at 50.8 124.46 0)
+		(at 54.61 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7730,7 +7750,7 @@
 		)
 		(uuid "b48a5c5a-f330-48a1-ad52-ef055ba4a414")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.5628 124.46 0)
+			(at 62.3728 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
