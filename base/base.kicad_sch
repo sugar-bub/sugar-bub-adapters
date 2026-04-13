@@ -8888,7 +8888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SugarBub:SugarBub_Symbol"
+		(property "Footprint" "SugarBub:SugarBub_Symbol_7mm"
 			(at 204.47 104.14 0)
 			(effects
 				(font

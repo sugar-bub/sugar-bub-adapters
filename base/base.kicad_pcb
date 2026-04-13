@@ -308,7 +308,7 @@
 			)
 		)
 	)
-	(footprint "SugarBub:SugarBub_Symbol"
+	(footprint "SugarBub:SugarBub_Symbol_7mm"
 		(layer "F.Cu")
 		(uuid "43887ec0-7dc2-475a-9b7a-83ee04800aa2")
 		(at 80.5 91.5)
@@ -376,7 +376,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "09388d23-c0a3-4d81-a904-f93b9fe0fa4b")
+			(uuid "6f046124-192d-4413-b620-dd1d161ade3d")
 		)
 		(fp_circle
 			(center 0 2.5)
@@ -387,7 +387,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "383c7b26-7c15-4f1f-aa8b-9fbcec9ca766")
+			(uuid "65291f86-eedb-4900-8a98-f8c552277ec5")
 		)
 		(pad "1" smd circle
 			(at -2.5 0)
@@ -405,7 +405,7 @@
 			(net 26 "+5V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "bcf6a86b-5db6-459e-9dc5-28626eb2af19")
+			(uuid "a521692f-947b-4856-bf00-28010d69204b")
 		)
 		(pad "1" smd circle
 			(at 2.5 0)
@@ -414,7 +414,7 @@
 			(net 26 "+5V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a774739c-4d0f-4c29-bf40-939f129d8839")
+			(uuid "a521692f-947b-4856-bf00-28010d69204b")
 		)
 		(embedded_fonts no)
 	)

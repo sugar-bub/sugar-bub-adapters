@@ -1,0 +1,98 @@
+(footprint "SugarBub_Symbol_7mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dc518c59-ee3f-41d6-a4a5-f2054741f42d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SugarBub_Symbol_7mm"
+		(at 0.75 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3b3b05d-dc4c-4c55-97c5-f894405a0391")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9a3d00c-3648-4b67-b447-315b00f386ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e3343b7-2b3f-49ed-88bf-df172acc5def")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center 0 -2.5)
+		(end 1 -2.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bace5965-e214-491c-9de6-8e6707c960a4")
+	)
+	(fp_circle
+		(center 0 2.5)
+		(end 1 2.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "04e623cb-f70e-43fa-8c7c-c932b6bf65e0")
+	)
+	(pad "1" smd circle
+		(at -2.5 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "474fbad2-9ab5-45ad-a422-5b0cd015d51f")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5214ebc6-9062-4524-ae02-6567234546b6")
+	)
+	(pad "1" smd circle
+		(at 2.5 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "524e04b8-6aa1-4e6d-b468-ac2f7461ca89")
+	)
+	(embedded_fonts no)
+)

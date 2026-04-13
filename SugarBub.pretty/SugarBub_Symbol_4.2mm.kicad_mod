@@ -1,4 +1,4 @@
-(footprint "SugarBub_Symbol"
+(footprint "SugarBub_Symbol_4.2mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SugarBub_Symbol"
+	(property "Value" "SugarBub_Symbol_4.2mm"
 		(at 0.75 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_circle
-		(center 0 -2.5)
-		(end 1 -2.5)
+		(center 0 -1.5)
+		(end 0.6 -1.5)
 		(stroke
 			(width 0)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "bace5965-e214-491c-9de6-8e6707c960a4")
 	)
 	(fp_circle
-		(center 0 2.5)
-		(end 1 2.5)
+		(center 0 1.5)
+		(end 0.6 1.5)
 		(stroke
 			(width 0)
 			(type solid)
@@ -77,20 +77,20 @@
 		(uuid "04e623cb-f70e-43fa-8c7c-c932b6bf65e0")
 	)
 	(pad "1" smd circle
-		(at -2.5 0)
-		(size 2 2)
+		(at -1.5 0)
+		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "474fbad2-9ab5-45ad-a422-5b0cd015d51f")
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 2 2)
+		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "5214ebc6-9062-4524-ae02-6567234546b6")
 	)
 	(pad "1" smd circle
-		(at 2.5 0)
-		(size 2 2)
+		(at 1.5 0)
+		(size 1.2 1.2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "524e04b8-6aa1-4e6d-b468-ac2f7461ca89")
 	)
