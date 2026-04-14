@@ -173,7 +173,7 @@
 		(at 120.55 79.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at -2.95 0 0)
 			(layer "F.SilkS")
 			(uuid "d63088a1-d07f-47bb-9888-9e1c0007954d")
@@ -405,7 +405,7 @@
 			(net 26 "+5V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a521692f-947b-4856-bf00-28010d69204b")
+			(uuid "3bea9eed-424e-4ae3-b2e7-b3e47f4893b1")
 		)
 		(pad "1" smd circle
 			(at 2.5 0)
@@ -414,7 +414,7 @@
 			(net 26 "+5V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a521692f-947b-4856-bf00-28010d69204b")
+			(uuid "27d8db9e-7ae5-4564-857c-c8d2fa2fc3af")
 		)
 		(embedded_fonts no)
 	)
@@ -474,7 +474,7 @@
 		(path "/b396bca0-a771-4e61-895a-d5f294897fb1")
 		(sheetname "/")
 		(sheetfile "base.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.91 -1.56)
 			(end 0.91 -1.56)
@@ -1969,7 +1969,7 @@
 		(path "/610cf34a-e854-4f99-9dbf-58249a607f24")
 		(sheetname "/")
 		(sheetfile "base.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -2110,7 +2110,7 @@
 		(path "/4f14cfea-0238-4eea-ab48-7fdc36902892")
 		(sheetname "/")
 		(sheetfile "base.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -2972,7 +2972,7 @@
 		(at 76 82.8 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at -2.45 0 180)
 			(layer "F.SilkS")
 			(uuid "15b659c3-3c24-49c4-a6e3-353df5bc296c")
@@ -3022,7 +3022,7 @@
 		(path "/fbce5bab-788a-4765-967c-3d34ec7bbaaf")
 		(sheetname "/")
 		(sheetfile "base.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -3181,7 +3181,7 @@
 		(path "/3cb6c212-40da-4efd-a418-d30b2f368df5")
 		(sheetname "/")
 		(sheetfile "base.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_circle
 			(center -1.09 0)
 			(end -1.04 0)
