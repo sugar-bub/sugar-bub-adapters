@@ -113,7 +113,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "sugar-bub-adapter-base")
+			(outputdirectory "sugar-bub-adapter-gg")
 		)
 	)
 	(net 0 "")
