@@ -1,13 +1,13 @@
 (footprint "Sega_GG_CartridgeEdge"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 22.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9f2e4da4-9e07-4283-ac8c-8c308b18f8de")
+		(uuid "357d3afb-e195-4f00-ac43-4eeae5d73987")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 23.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "efe071d1-52ee-43cc-bcab-d211e7b2dff9")
+		(uuid "a93687ba-1737-4a82-b4ef-e7f38a206f3b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aa449eff-b168-4f8d-9b13-e63558619309")
+		(uuid "148a894d-6d8c-46a0-b3c0-2ddbdffffe6f")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "727f1255-e2b4-41f5-b271-acd27bf8c0c6")
+		(uuid "77aa0482-8999-4d20-b568-4af8a8927478")
 		(effects
 			(font
 				(size 1 1)
@@ -54,114 +54,137 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -29.5 19.5)
-		(end -29.5 10)
+		(start -30.1 19.5)
+		(end -30.1 10)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "82078716-03c1-460e-bd23-c8503c3f5529")
+		(uuid "536a5214-e539-4959-85d7-186e0f0a5b22")
 	)
 	(fp_line
-		(start -29 20)
-		(end 29 20)
+		(start -29.6 20)
+		(end 29.6 20)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "db813755-7a4d-4531-93b1-9355ff24945e")
+		(uuid "6fa59bd9-4ec2-4717-97e9-91b999b808eb")
 	)
 	(fp_line
-		(start 29.5 19.5)
-		(end 29.5 10)
+		(start 30.1 19.5)
+		(end 30.1 10)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "661859c5-acbb-4bc7-9ceb-4cc0ec5d4f6d")
+		(uuid "b25edbbb-e54a-489a-8b23-69a65068709c")
 	)
 	(fp_arc
-		(start -29 20)
-		(mid -29.353553 19.853553)
-		(end -29.5 19.5)
+		(start -29.6 20)
+		(mid -29.953553 19.853553)
+		(end -30.1 19.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9fa075d5-e057-4789-be8c-227bb8b06e25")
+		(uuid "76989c5a-6e2a-4250-aea1-d5f25ce83162")
 	)
 	(fp_arc
-		(start 29.5 19.5)
-		(mid 29.353553 19.853553)
-		(end 29 20)
+		(start 30.1 19.5)
+		(mid 29.953553 19.853553)
+		(end 29.6 20)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b6fff872-a563-40f3-bdca-1d22faee1479")
+		(uuid "34265309-75bc-48fa-b600-5a3a972885c6")
 	)
 	(fp_circle
-		(center 0 0)
-		(end 5 0)
+		(center -26.65 -9.1)
+		(end -25.45 -9.1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "f0102b7e-39ac-44e9-b420-4e468edd27b2")
+		(uuid "60f59f83-7fd7-4b29-8963-a715f8176ef1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "47a0cc56-7f47-4835-8d6e-80136d389ccb")
+	)
+	(fp_circle
+		(center 26.65 -9.1)
+		(end 27.85 -9.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "03ac0592-711f-4c39-87c3-a46b65e3e72b")
 	)
 	(fp_line
-		(start -30 10)
-		(end -30 20.5)
+		(start -30.5 10)
+		(end -30.5 20.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5d3508d5-cb26-4438-9dcc-fa1e691e3dd5")
+		(uuid "3f009d01-46ba-4ed1-be2b-fd58b369de0f")
 	)
 	(fp_line
-		(start -30 10)
-		(end 30 10)
+		(start -30.5 10)
+		(end 30.5 10)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d10609e5-7abd-4e69-adb7-4c184b874080")
+		(uuid "2a880a01-c635-44d2-ae0d-7f9f715c3aec")
 	)
 	(fp_line
-		(start 30 20.5)
-		(end -30 20.5)
+		(start 30.5 20.5)
+		(end -30.5 20.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "71a5a129-8e0a-4072-b332-a157cccb7da4")
+		(uuid "bc78d6ef-3e33-4e9c-a353-ad348450fcb6")
 	)
 	(fp_line
-		(start 30 20.5)
-		(end 30 10)
+		(start 30.5 20.5)
+		(end 30.5 10)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2b1c2663-2d18-4c40-8016-35c9ee7e9623")
+		(uuid "162bc736-53bc-4168-a9c6-999c477e6588")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 25.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e9d7f366-2def-49af-bbfd-b5c49d0b4aae")
+		(uuid "1f7749da-b8cb-4b94-b873-65a7cecbee85")
 		(effects
 			(font
 				(size 1 1)
@@ -176,7 +199,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "d946fe9b-0c00-4772-95cd-9418194a3b43")
+		(uuid "40da07ed-9b5f-424d-b1ce-35f2a49fe32d")
 	)
 	(pad "2" connect roundrect
 		(at -26.67 12.19)
@@ -185,7 +208,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "404062a5-8943-4092-98d2-c2fc9c7888df")
+		(uuid "1c74536b-54f7-49c3-acc0-73eaff782c37")
 	)
 	(pad "3" connect roundrect
 		(at -25.4 17.27)
@@ -194,7 +217,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "e7a414df-d19d-4183-98d1-c4edd61d7559")
+		(uuid "525cb383-34e5-42ca-9c0c-6eead9eeb077")
 	)
 	(pad "4" connect roundrect
 		(at -24.13 12.19)
@@ -203,7 +226,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "23d6951c-6f68-4874-be82-b09fa82fab5e")
+		(uuid "2baded38-3c16-4bb1-91d8-f5c9fca70b8b")
 	)
 	(pad "5" connect roundrect
 		(at -22.86 17.27)
@@ -212,7 +235,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "ff9f0744-eb2e-438c-a741-1d7f262775e4")
+		(uuid "12daa64f-c5c7-479a-855f-07fdaa4bdde3")
 	)
 	(pad "6" connect roundrect
 		(at -21.59 12.19)
@@ -221,7 +244,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "2b0b5e68-8a22-4b99-9007-8550d2d18b7d")
+		(uuid "9828d4e1-d948-441e-8896-707c4cb5676f")
 	)
 	(pad "7" connect roundrect
 		(at -20.32 17.27)
@@ -230,7 +253,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "ffeb087e-8614-4f89-a83b-4183efb3d921")
+		(uuid "a4a1cdad-e22d-4442-b474-8b7b1f0c0443")
 	)
 	(pad "8" connect roundrect
 		(at -19.05 12.19)
@@ -239,7 +262,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "2338d1d9-8382-4891-af8e-d7f34abee006")
+		(uuid "745c6e13-918f-4886-a03d-96ec0f3504e6")
 	)
 	(pad "9" connect roundrect
 		(at -17.78 17.27)
@@ -248,7 +271,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "757fa68f-9048-43a4-bfc3-b77203d02a90")
+		(uuid "c52b9d98-5a6f-4918-a4b2-bf0f07aeab3e")
 	)
 	(pad "10" connect roundrect
 		(at -16.51 12.19)
@@ -257,7 +280,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "ceb4380c-4e37-4049-bd9d-7c505c0fcfc8")
+		(uuid "a24e8155-8581-4922-aede-f1bc049b0650")
 	)
 	(pad "11" connect roundrect
 		(at -15.24 17.27)
@@ -266,7 +289,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "f94d71d4-206c-422c-a2e3-d48145175d3c")
+		(uuid "2a9d54ad-326c-4e0e-8202-6bac67d3d930")
 	)
 	(pad "12" connect roundrect
 		(at -13.97 12.19)
@@ -275,7 +298,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "eb91c3f5-b104-4154-ac2b-08734b72a5fc")
+		(uuid "d8c1cfd5-228f-425a-9da1-4752a3cd6434")
 	)
 	(pad "13" connect roundrect
 		(at -12.7 17.27)
@@ -284,7 +307,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "0d4c49c7-0e65-4694-bfbf-21c514667d92")
+		(uuid "f59f37fc-6b25-4d68-a734-996eccb59664")
 	)
 	(pad "14" connect roundrect
 		(at -11.43 12.19)
@@ -293,7 +316,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "6284f1a6-1908-4abc-acf8-3614dbb0c463")
+		(uuid "21b60e98-53fa-48cd-b382-ff762835fd7a")
 	)
 	(pad "15" connect roundrect
 		(at -10.16 17.27)
@@ -302,7 +325,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "f2dd9d7a-12e3-4f24-aa6e-16c42bd2ea73")
+		(uuid "e67c7e00-d1f4-4d9c-9f3d-c64d1ddbb0bc")
 	)
 	(pad "16" connect roundrect
 		(at -8.89 12.19)
@@ -311,7 +334,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "72ede90a-2d74-4381-b0b5-20edb46e13c9")
+		(uuid "a518dfe4-cd54-4dfa-bf2e-17b7ffc0f59c")
 	)
 	(pad "17" connect roundrect
 		(at -7.62 17.27)
@@ -320,7 +343,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "428e72bf-21d0-4f3b-94c1-2a8a5fc07226")
+		(uuid "1cf467a4-8fc8-4157-a504-d113374f199e")
 	)
 	(pad "18" connect roundrect
 		(at -6.35 12.19)
@@ -329,7 +352,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "b0135328-c488-4bb6-9178-a52065213cde")
+		(uuid "e9ec2b2b-4b95-442a-ab2a-86abc72f0377")
 	)
 	(pad "19" connect roundrect
 		(at -5.08 17.27)
@@ -338,7 +361,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "0d427c1c-e309-4a44-8f61-16ec72b9cc66")
+		(uuid "b34cca11-b7ce-4a97-8a57-27d3d4f6bc0c")
 	)
 	(pad "20" connect roundrect
 		(at -3.81 12.19)
@@ -347,7 +370,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "dea64c22-4667-4420-9fc1-da41e13629f5")
+		(uuid "b51f3bf8-703b-4c8c-8716-9490d8627123")
 	)
 	(pad "21" connect roundrect
 		(at -2.54 17.27)
@@ -356,7 +379,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "e2a9582f-3fb8-4edd-9acd-ee8d308ba7d1")
+		(uuid "ce08658f-3afb-4ba0-baac-b6cbec616d34")
 	)
 	(pad "22" connect roundrect
 		(at -1.27 12.19)
@@ -365,7 +388,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "77193004-9e8d-464e-a45a-04823c5d8f4e")
+		(uuid "f7544cd7-c8d4-48b0-87f8-72f686bc9453")
 	)
 	(pad "23" connect roundrect
 		(at 0 17.27)
@@ -374,7 +397,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "2ec5f60a-ce22-4b11-a6bd-6154f9946068")
+		(uuid "5fff294a-f105-410c-a926-82a44f1a15d5")
 	)
 	(pad "24" connect roundrect
 		(at 1.27 12.19)
@@ -383,7 +406,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "64df6e42-8a26-41c4-8cce-a849cff93eb8")
+		(uuid "a03a2c04-bbe2-47da-a40c-a4de588f7d43")
 	)
 	(pad "25" connect roundrect
 		(at 2.54 17.27)
@@ -392,7 +415,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "234ec944-b301-49be-a083-98af96468e66")
+		(uuid "d8a135ea-e4f8-4f52-ab68-6b1813f059cd")
 	)
 	(pad "26" connect roundrect
 		(at 3.81 12.19)
@@ -401,7 +424,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "aec9af78-cbdd-4b99-a5f5-57f011522461")
+		(uuid "763090d9-1d43-44aa-83ea-36c87009ecd2")
 	)
 	(pad "27" connect roundrect
 		(at 5.08 17.27)
@@ -410,7 +433,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "715dd6b7-8194-449f-8bbf-5f2b55affab7")
+		(uuid "77664842-7d8f-4a65-824f-d73a92a9cd5d")
 	)
 	(pad "28" connect roundrect
 		(at 6.35 12.19)
@@ -419,7 +442,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "a640cd2d-4973-4475-80ca-294e89b6f760")
+		(uuid "77627880-a527-4726-8c72-16fc5da4790b")
 	)
 	(pad "29" connect roundrect
 		(at 7.62 17.27)
@@ -428,7 +451,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "667f432d-717f-4816-af0e-97595940ad60")
+		(uuid "8bc17c4a-9d07-446b-a768-01fd6baa614c")
 	)
 	(pad "30" connect roundrect
 		(at 8.89 12.19)
@@ -437,7 +460,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "a7c5a028-03b1-4908-9c83-e0aec52485d7")
+		(uuid "91a232f6-a1d8-4500-846d-29990b5be50f")
 	)
 	(pad "31" connect roundrect
 		(at 10.16 17.27)
@@ -446,7 +469,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "3c070b21-a4b1-446d-8a2e-49986e580eb0")
+		(uuid "b95c146a-0f88-48e5-ac5d-0ebce23a72f4")
 	)
 	(pad "32" connect roundrect
 		(at 11.43 12.19)
@@ -455,7 +478,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "35d0c96d-ec5d-4e97-b46c-6a52868b0266")
+		(uuid "ca303b7e-d46a-4925-a13f-a439b93edfee")
 	)
 	(pad "33" connect roundrect
 		(at 12.7 17.27)
@@ -464,7 +487,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "e3fb2996-db8a-4e6b-92f9-eea615a20fef")
+		(uuid "a909f531-976e-4481-b4ae-1db4f1600e3e")
 	)
 	(pad "34" connect roundrect
 		(at 13.97 12.19)
@@ -473,7 +496,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "7694f91e-999e-4607-ac0e-c5320e2432bf")
+		(uuid "54734ea8-dedf-4e0e-b38a-010e8d5ada79")
 	)
 	(pad "35" connect roundrect
 		(at 15.24 17.27)
@@ -482,7 +505,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "7c1ee171-7737-4be5-a7e1-a01d4ca9d666")
+		(uuid "a268bfb2-84d7-4c78-8ce3-733ac717d7c5")
 	)
 	(pad "36" connect roundrect
 		(at 16.51 12.19)
@@ -491,7 +514,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "1967db16-e87f-44c3-bbb2-2e24d1a6665b")
+		(uuid "973243fd-c488-46ae-941a-a7d4c3d538e5")
 	)
 	(pad "37" connect roundrect
 		(at 17.78 17.27)
@@ -500,7 +523,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "5789076c-3342-46fd-81a7-14fdf1fc3008")
+		(uuid "690856f9-8e0e-4cbb-b207-5b2860c29b06")
 	)
 	(pad "38" connect roundrect
 		(at 19.05 12.19)
@@ -509,7 +532,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "d3cfdfc7-1bff-4c8e-b98c-1c3837ff489a")
+		(uuid "14f09616-47cc-4506-9816-a6c2d40342cd")
 	)
 	(pad "39" connect roundrect
 		(at 20.32 17.27)
@@ -518,7 +541,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "822600ed-52ae-4449-9699-db2f5ef84b79")
+		(uuid "0fa1f997-56cf-4e08-8ee0-21be7376c1f4")
 	)
 	(pad "40" connect roundrect
 		(at 21.59 12.19)
@@ -527,7 +550,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "3bd77712-202f-41c5-8ea9-40fe78f2c870")
+		(uuid "335d2c85-d632-4541-9f70-bdf4523027e1")
 	)
 	(pad "41" connect roundrect
 		(at 22.86 17.27)
@@ -536,7 +559,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "da01faa4-5176-4fcb-b1e1-829ae4698041")
+		(uuid "0ec4182a-1556-4aa1-b692-95bb16ef2409")
 	)
 	(pad "42" connect roundrect
 		(at 24.13 12.19)
@@ -545,7 +568,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "e317db83-5bc3-44af-be3d-ffe6a23e0238")
+		(uuid "57952106-ca25-4ab6-b971-3b09d04c58b8")
 	)
 	(pad "43" connect roundrect
 		(at 25.4 17.27)
@@ -554,7 +577,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "98242320-c1b1-4d0e-9fab-0adefaf12d9c")
+		(uuid "22fc8ffd-f342-41fb-8448-aa967917b63c")
 	)
 	(pad "44" connect roundrect
 		(at 26.67 12.19)
@@ -563,7 +586,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "dee8bb51-1a7c-4cf0-9b69-2b210cd02438")
+		(uuid "2a975270-21dd-4be0-9f3a-a4cd0461176f")
 	)
 	(pad "45" connect roundrect
 		(at 27.94 17.27)
@@ -572,7 +595,7 @@
 		(roundrect_rratio 0.5)
 		(chamfer_ratio 0)
 		(chamfer bottom_left bottom_right)
-		(uuid "d03fce14-52c6-4484-9642-1d6010ded4a6")
+		(uuid "efd4aed2-6dcd-4084-94a0-856eb7787d02")
 	)
 	(embedded_fonts no)
 )
