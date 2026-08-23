@@ -68,7 +68,7 @@ PCB requirements:
 Components:
 
 * Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
-* EDAC 395-050-521-802 edge connector (50-pin)
+* EDAC 395-050-521-802 edge connector (50-pin, 2.54 mm pitch)
 
 SG-1000 Adapter
 ~~~~~~~~~~~~~~~
@@ -85,7 +85,7 @@ PCB requirements:
 Components:
 
 * Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
-* EDAC 395-044-521-802 edge connector (44-pin)
+* EDAC 346-044-560-204 edge connector (44-pin, 3.175mm pitch)
 
 GG Adapter
 ~~~~~~~~~~
