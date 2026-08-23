@@ -6,6 +6,19 @@ Sugar Bub Adapters
 Cartridge Hardware
 ------------------
 
+Cartridge hardware is built around a 45-pin FPC cable. One end connects to a cartridge-type PCB:
+
+* `Base Adapter`_
+* `GG Adapter`_
+
+The other end connects to a slot-type PCB:
+
+* `RetroSix GameSlot`_
+* `SMS Adapter`_
+* `SG-1000 Adapter`_
+
+.. _RetroSix GameSlot: https://retrosix.co.uk/Game-Gear-GameSlot-Kit-p515558760
+
 Base Adapter
 ~~~~~~~~~~~~
 
@@ -15,7 +28,6 @@ By harvesting the MCU from an AP-A01, the adapter can be made compatible with th
 
 .. _Analogue AP-A01: https://github.com/sfiera/pocket-adapters/blob/main/gg.md
 .. _Analogue Pocket: https://www.analogue.co/pocket
-.. _RetroSix GameSlot: https://retrosix.co.uk/Game-Gear-GameSlot-Kit-p515558760
 .. _MCU: https://github.com/sfiera/pocket-adapters/blob/main/mcu.md
 
 PCB requirements:
@@ -85,6 +97,32 @@ Components:
 
 * Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
 
+Link Hardware
+-------------
+
+Link hardware is built around a classic `Macintosh printer cable`_. Like the `Gear-to-Gear cable`_, this is an 8-core cable with 3 crossover pairs. Unlike the Gear-to-Gear cable, it uses a standard 8-pin Mini-DIN connector.
+
+.. _Macintosh printer cable: https://whitefiles.org/tec/pgs/h10b.htm
+.. _Gear-to-Gear cable: https://segaretro.org/Gear-to-Gear_Cable
+
+GG Link Adapter
+~~~~~~~~~~~~~~~
+
+.. warning:: Untested!
+
+The GG link adapter plugs into a `Master Link Cable`_, which in turn plugs into a Game Gear’s EXT port in place of a Gear-to-Gear cable.
+
+.. _Master Link Cable: https://segaretro.org/Master_Link_Cable
+
+Pmod Link Adapter
+~~~~~~~~~~~~~~~~~
+
+.. warning:: Untested!
+
+The Pmod link adapter plugs into the Pmod connector on top of a `Game Bub`_. It also requires connection to the link port by a Game Boy (not GBA) link cable.
+
+.. _Game Bub: https://gamebub.net/
+
 Q&A
 ---
 
@@ -96,7 +134,6 @@ Q: What hardware is compatible with the `Base Adapter`_?
 
   Support is planned for `Game Bub`_.
 
-.. _Game Bub: https://gamebub.net/
 .. _GBxCart RW: https://www.gbxcart.com/
 .. _cartload: https://cartload.org/
 
