@@ -22,6 +22,9 @@ The other end connects to a slot-type PCB:
 Base Adapter
 ~~~~~~~~~~~~
 
+.. image:: doc/images/base-adapter.jpg
+   :width: 600
+
 The base adapter can be inserted into a Game Boy cartridge slot. It adapts the Game Boy cartridge interface to a FPC connector with the same pinout mapping as the `Analogue AP-A01`_ Sega Game Gear adapter. This FPC connector can be connected directly to a `RetroSix GameSlot`_ or the Sugar Bub `SMS Adapter`_.
 
 By harvesting the MCU from an AP-A01, the adapter can be made compatible with the `Analogue Pocket`_. However, without harvesting the MCU_ or reverse-engineering its communication protocol, the Pocket will not recognize the adapter.
@@ -49,6 +52,9 @@ Components:
 
 SMS Adapter
 ~~~~~~~~~~~
+
+.. image:: doc/images/sms-adapter.jpg
+   :width: 600
 
 In combination with the `base adapter`_, the SMS adapter serves as a `Master Gear Converter`_ without the need of an intermediate Game Gear slot.
 
