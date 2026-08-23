@@ -7218,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SugarBub:EDAC_395-044-521-802"
+		(property "Footprint" "SugarBub:EDAC_346-044-560-204"
 			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
