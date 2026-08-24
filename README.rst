@@ -143,6 +143,16 @@ Q: What hardware is compatible with the `Base Adapter`_?
 .. _GBxCart RW: https://www.gbxcart.com/
 .. _cartload: https://cartload.org/
 
+Q: What’s the use of supporting the Pocket if you need to cannibalize an existing adapter?
+  A: Not much, truthfully. But there are a couple of minor reasons you might prefer it:
+
+  * You can use same adapter on all systems, which is slightly more convenient.
+  * You can access the `output of U2`_ from a solder pad, which simplifies reverse-engineering.
+  * You can connect an `SMS Adapter`_ or `SG-1000 Adapter`_, which means fewer adapters to play SMS/SG-1000.
+  * You can customize the adapter shell, which lets the Game Gear (or other) cartridge sit lower.
+
+.. _output of U2: https://github.com/sfiera/pocket-adapters/blob/main/mcu.md
+
 Q: Is there any further documentation of the Analogue Pocket adapters?
   A: Yes, see `sfiera/pocket-adapters`_.
 
