@@ -153,6 +153,9 @@ Q: What’s the use of supporting the Pocket if you need to cannibalize an exist
 
 .. _output of U2: https://github.com/sfiera/pocket-adapters/blob/main/mcu.md
 
+Q: Will there be a link adapter for the Pocket?
+  A: No, Gear-to-Gear cables have 7 data pins, and there’s no good way to get more than 4 out of the Pocket.
+
 Q: Is there any further documentation of the Analogue Pocket adapters?
   A: Yes, see `sfiera/pocket-adapters`_.
 
