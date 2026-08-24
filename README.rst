@@ -73,7 +73,9 @@ Components:
 SG-1000 Adapter
 ~~~~~~~~~~~~~~~
 
-.. warning:: Untested!
+  **Warning**
+
+  Untested!
 
 In combination with the `base adapter`_, the SG-1000 adapter serves as a `Master Gear Converter`_ for Japanese cartridges without the need of an intermediate Game Gear slot or region converter.
 
@@ -114,7 +116,9 @@ Link hardware is built around a classic `Macintosh printer cable`_. Like the `Ge
 GG Link Adapter
 ~~~~~~~~~~~~~~~
 
-.. warning:: Untested!
+  **Warning**
+
+  Untested!
 
 The GG link adapter plugs into a `Master Link Cable`_, which in turn plugs into a Game Gear’s EXT port in place of a Gear-to-Gear cable.
 
@@ -123,7 +127,9 @@ The GG link adapter plugs into a `Master Link Cable`_, which in turn plugs into 
 Pmod Link Adapter
 ~~~~~~~~~~~~~~~~~
 
-.. warning:: Untested!
+  **Warning**
+
+  Untested!
 
 The Pmod link adapter plugs into the Pmod connector on top of a `Game Bub`_. It also requires connection to the link port by a Game Boy (not GBA) link cable.
 
