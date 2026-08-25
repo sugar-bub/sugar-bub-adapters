@@ -110,8 +110,17 @@ Link Hardware
 
 Link hardware is built around a classic `Macintosh printer cable`_. Like the `Gear-to-Gear cable`_, this is an 8-core cable with 3 crossover pairs. Unlike the Gear-to-Gear cable, it uses a standard 8-pin Mini-DIN connector.
 
+If purchasing a cable, you need one with the following wiring (`example cable`_):
+
+* 1 ↔︎ 2
+* 3 ↔︎ 5
+* 4 ↔︎ 4
+* 6 ↔︎ 8
+* 7 ↔︎ 7
+
 .. _Macintosh printer cable: https://whitefiles.org/tec/pgs/h10b.htm
 .. _Gear-to-Gear cable: https://segaretro.org/Gear-to-Gear_Cable
+.. _example cable: https://www.ebay.com/itm/371981646916
 
 GG Link Adapter
 ~~~~~~~~~~~~~~~
