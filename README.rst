@@ -40,15 +40,15 @@ PCB requirements:
 
 Components:
 
-* Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
 * FPC cable (45p, 0.5mm pitch)
-* SOIC-16 HC139 demux
-* 0.1uF 0805 SMD capacitor
-* (optional) MCU from Analogue AP-A01
-* (optional) 0.1uF 0805 SMD capacitor
-* (optional) 1.2k 0805 SMD resistor
-* (optional) 10k 0805 SMD resistor
-* (optional) 0402 IR LED
+* J2: Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
+* U1: SOIC-16 HC139 demux
+* C1: 0.1uF 0805 SMD capacitor
+* (optional) U2: MCU from Analogue AP-A01
+* (optional) C2: 0.1uF 0805 SMD capacitor
+* (optional) R1: 1.2k 0805 SMD resistor
+* (optional) R2: 10k 0805 SMD resistor
+* (optional) D1: 0402 IR LED
 
 SMS Adapter
 ~~~~~~~~~~~
@@ -103,7 +103,8 @@ PCB requirements:
 
 Components:
 
-* Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
+* FPC cable (45p, 0.5mm pitch)
+* J2: Amphenol F32Q-1A7H1-11045 FPC connector (45p, 0.5mm pitch)
 
 Link Hardware
 -------------
