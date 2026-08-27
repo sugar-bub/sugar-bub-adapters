@@ -115,11 +115,9 @@ Link hardware is built around a classic `Macintosh printer cable`_. Like the `Ge
 
 If purchasing a cable, you need one with the following wiring (`example cable`_):
 
-* 1 ↔︎ 2
-* 3 ↔︎ 5
-* 4 ↔︎ 4
-* 6 ↔︎ 8
-* 7 ↔︎ 7
+* 1 → 2, 2 → 1
+* 3 → 5, 4 → 4, 5 → 3
+* 6 → 8, 7 → 7, 8 → 6
 
 .. _Macintosh printer cable: https://whitefiles.org/tec/pgs/h10b.htm
 .. _Gear-to-Gear cable: https://segaretro.org/Gear-to-Gear_Cable
