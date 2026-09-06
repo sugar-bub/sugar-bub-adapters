@@ -77,7 +77,11 @@ SG-1000 Adapter
 
   **Warning**
 
-  Untested!
+  Still needs work. Through-hole diameter is too small.
+
+.. image:: doc/images/sg1000-adapter.jpg
+   :alt: SG-1000 adapter with components soldered.
+   :width: 600
 
 In combination with the `base adapter`_, the SG-1000 adapter serves as a `Master Gear Converter`_ for Japanese cartridges without the need of an intermediate Game Gear slot or region converter.
 
